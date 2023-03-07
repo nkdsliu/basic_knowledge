@@ -38,8 +38,7 @@
 * index_list = df.index.tolist() -> 获取所有索引组成的列表
 * print(index_list[0]) -> 列表下标即为行号，通过行号获取对应行索引
 ## [获取内存和显存使用信息](https://www.codeleading.com/article/88515622463/)
-## [python解析word](https://blog.csdn.net/qq_43350524/article/details/107857872)
-* 使用docx库，按段落、表格或分块解析
+
 ## [判断目录是否存在，不存在则创建](https://blog.csdn.net/u013247765/article/details/79050947)
 ## [查看库安装位置](https://blog.csdn.net/C_chuxin/article/details/82960824)
 * import后使用库名.__file__
@@ -55,26 +54,15 @@ except Exception as e:
 ## [pycharm添加命令行参数](https://blog.csdn.net/counte_rking/article/details/78837028)
 ## [yield用法](https://www.runoob.com/w3cnote/python-yield-used-analysis.html)
 ## [f-string格式化字符串](https://cloud.tencent.com/developer/article/1742486)
-## python解析excel
+## python文档解析
+### 解析excel
 * [使用xlrd](https://juejin.cn/post/6844903777825193992)
 * [使用pandas](https://cloud.tencent.com/developer/article/1559513)
-## [python解析pdf](http://www.ityouknow.com/python/2020/01/02/python-pdf-107.html)
+### [解析word](https://blog.csdn.net/qq_43350524/article/details/107857872)
+* 使用docx库，按段落、表格或分块解析
+### [解析pdf](http://www.ityouknow.com/python/2020/01/02/python-pdf-107.html)
 ## [join()方法](https://blog.csdn.net/doiido/article/details/43538833)
 ## windows下读取linux文件，open时要增加encoding='UTF-8'
 ## [python线程join和setDaemon方法](https://www.cnblogs.com/alan-babyblog/p/5325071.html)
 * join方法主线程A中，创建子线程B，并在主线程A中调用了B.join()，那么主线程A会在调用的地方等待，直到子线程B完成操作后，才可以接着往下执行
 * setDaemon方法把主线程A设置为守护线程，主线程A执行结束，不管子线程B是否完成,一并和主线程A退出
-# [MongoDB](https://www.runoob.com/mongodb/mongodb-tutorial.html)
-* WEB应用，可扩展、高性能、分布式文件存储的非关系型数据库
-# [jupyter notebook使用argparse模块问题](https://zhuanlan.zhihu.com/p/145720581)
-# [消息队列](https://cloud.tencent.com/developer/article/1006035)
-* [topic和tag](https://blog.csdn.net/ye17186/article/details/89640286)
-# [docker教程](https://yeasy.gitbook.io/docker_practice/)
-* [docker引擎](https://www.itheima.com/news/20201130/154933.html)
-* [docker客户端与服务器机制](https://www.sukun.xyz/docker%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%B8%8E%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%9C%BA%E5%88%B6/)
-* [docker客户端与服务器通信方式](https://www.malaoshi.top/show_1EF5tUtWTr4X.html)
-* [commit快照和dockerfile制作镜像](https://support.huaweicloud.com/swr_faq/swr_faq_0012.html)
-# http
-* [http参数类型](https://blog.csdn.net/madmk/article/details/97246761)
-* [鉴权方式](https://juejin.cn/post/6844903927100473357), [token用法](https://support.huaweicloud.com/api-sis/sis_03_0058.html)
-* [http表单](https://www.w3school.com.cn/html/html_forms.asp)
