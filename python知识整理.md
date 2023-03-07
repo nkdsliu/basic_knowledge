@@ -9,9 +9,7 @@
 * python与或非and， or，not
 * dataframe与或非&，|，~
 ## [Python遍历文件夹下所有文件及目录](https://blog.csdn.net/mighty13/article/details/77995857)
-## [python多线程join用法](https://blog.csdn.net/whatday/article/details/124308427)
 ## [python下划线作用](https://zhuanlan.zhihu.com/p/36173202)
-## [pdf逐页转图片](https://www.codeleading.com/article/43065377472/)
 ## [lambda, map, apply用法](https://zhuanlan.zhihu.com/p/42756654)
 * [lambda for循环](https://www.cnblogs.com/liuq/p/6073855.html),[lambda表达式在执行的时候才会去寻找变量](https://www.cxyzjd.com/article/qq_43218657/102492599)
 ## python性能分析
@@ -38,7 +36,6 @@
 * index_list = df.index.tolist() -> 获取所有索引组成的列表
 * print(index_list[0]) -> 列表下标即为行号，通过行号获取对应行索引
 ## [获取内存和显存使用信息](https://www.codeleading.com/article/88515622463/)
-
 ## [判断目录是否存在，不存在则创建](https://blog.csdn.net/u013247765/article/details/79050947)
 ## [查看库安装位置](https://blog.csdn.net/C_chuxin/article/details/82960824)
 * import后使用库名.__file__
@@ -61,8 +58,10 @@ except Exception as e:
 ### [解析word](https://blog.csdn.net/qq_43350524/article/details/107857872)
 * 使用docx库，按段落、表格或分块解析
 ### [解析pdf](http://www.ityouknow.com/python/2020/01/02/python-pdf-107.html)
+* [pdf逐页转图片](https://www.codeleading.com/article/43065377472/)
 ## [join()方法](https://blog.csdn.net/doiido/article/details/43538833)
 ## windows下读取linux文件，open时要增加encoding='UTF-8'
 ## [python线程join和setDaemon方法](https://www.cnblogs.com/alan-babyblog/p/5325071.html)
+* [python多线程join用法](https://blog.csdn.net/whatday/article/details/124308427)
 * join方法主线程A中，创建子线程B，并在主线程A中调用了B.join()，那么主线程A会在调用的地方等待，直到子线程B完成操作后，才可以接着往下执行
 * setDaemon方法把主线程A设置为守护线程，主线程A执行结束，不管子线程B是否完成,一并和主线程A退出
