@@ -1,8 +1,9 @@
 # 代码下载&提交
 * git clone -b 分支名 ssh链接 -> 拉取指定分支代码
-* cd clone 代码对应目录 -> 切换到对应代码目录
+* cd 代码对应目录 -> 切换到对应代码目录
 * git checkout 分支名 -> 查看分支
 * git status -> 查看文件状态
+* git pull -> 拉取最新代码
 * git add . -> 暂存文件
 * git commit -m "更新描述" -> 添加提交信息
 * git push origin 分支名 -> 提交代码
