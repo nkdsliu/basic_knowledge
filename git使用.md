@@ -33,3 +33,6 @@
 # 其他常用命令
 * 用HEAD表示当前版本，上一个版本是HEAD^，上上一个版本是HEAD^^，往上100个版本写成HEAD~100
 * git worktree多分支开发
+# git教程
+* [廖雪峰](https://www.liaoxuefeng.com/wiki/896043488029600/900004111093344)
+* [菜鸟](https://www.runoob.com/git/git-branch.html)
