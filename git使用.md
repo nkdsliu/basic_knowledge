@@ -13,5 +13,15 @@
 # git上传空文件夹
 * git默认不上传空文件夹
 * [上传空文件夹方法](https://blog.csdn.net/itnerd/article/details/114285391)
-# 其他常用命令
+# git tag用法
 * git log -> 查看提交历史，按q退出
+* git log --pretty=oneline -> 查看简略log信息，只显示commit id和对应的注释
+* git tag -> 查看所有标签
+* git tag -a v1.0 -m "my version 1.0" commit_id -> 给commit_id版本的代码创建v1.0版本并有描述信息的tag，版本号和描述信息可修改（若无commit_id则表示当前版本）
+* git show v1.0 -> 显示v1.0版本tag信息
+* git push origin v1.0 -> 将v1.0的tag提交到origin远程仓库
+# git版本回退
+* git reset --hard commit_id -> 将代码回退到commit_id版本（可通过查看tag的commit_id回退到指定tag）
+* git push -f origin master -> 推送到远程origin仓库的master分支，不存在冲突时可省略-f参数，不存在多个仓库和多个分支时，origin master可省略
+# 其他常用命令
+* 用HEAD表示当前版本，上一个版本是HEAD^，上上一个版本是HEAD^^，往上100个版本写成HEAD~100
