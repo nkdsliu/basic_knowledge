@@ -1,9 +1,9 @@
 # 代码下载&提交
 * git clone -b 分支名 ssh链接 -> 拉取指定分支代码
 * cd 代码对应目录 -> 切换到对应代码目录
-* git checkout 分支名 -> 查看分支
+* git checkout 分支名 -> 切换分支
 * git status -> 查看文件状态
-* git pull -> 拉取最新代码
+* git pull -> 拉取最新代码（相当于git fetch 仓库名 分支名 -> 拉取远程代码 + git merge与本地代码合并）
 * git add . -> 暂存文件
 * git commit -m "更新描述" -> 添加提交信息
 * git push origin 分支名 -> 提交代码
@@ -25,3 +25,4 @@
 * git push -f origin master -> 推送到远程origin仓库的master分支，不存在冲突时可省略-f参数，不存在多个仓库和多个分支时，origin master可省略
 # 其他常用命令
 * 用HEAD表示当前版本，上一个版本是HEAD^，上上一个版本是HEAD^^，往上100个版本写成HEAD~100
+* git worktree多分支开发
