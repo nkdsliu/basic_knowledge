@@ -23,6 +23,13 @@
 # git版本回退
 * git reset --hard commit_id -> 将代码回退到commit_id版本（可通过查看tag的commit_id回退到指定tag）
 * git push -f origin master -> 推送到远程origin仓库的master分支，不存在冲突时可省略-f参数，不存在多个仓库和多个分支时，origin master可省略
+# git多分支开发
+* git branch -> 查看所有分支
+* git branch 分支名 -> 创建分支
+* git checkout 分支名 -> 切换分支
+* [git分支原理](https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%AE%80%E4%BB%8B#ch03-git-branching)
+* [git push/pull指定仓库和分支](https://www.cnblogs.com/stephen-init/p/3833054.html)
+* git pull <远程主机名> <远程分支名>:<本地分支名>, git push <远程主机名> <本地分支名>:<远程分支名>（若远程分支不存在会创建）
 # 其他常用命令
 * 用HEAD表示当前版本，上一个版本是HEAD^，上上一个版本是HEAD^^，往上100个版本写成HEAD~100
 * git worktree多分支开发
