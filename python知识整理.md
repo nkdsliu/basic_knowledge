@@ -65,3 +65,6 @@ except Exception as e:
 * [python多线程join用法](https://blog.csdn.net/whatday/article/details/124308427)
 * join方法主线程A中，创建子线程B，并在主线程A中调用了B.join()，那么主线程A会在调用的地方等待，直到子线程B完成操作后，才可以接着往下执行
 * setDaemon方法把主线程A设置为守护线程，主线程A执行结束，不管子线程B是否完成,一并和主线程A退出
+## 字符串模糊匹配
+* 通过re正则中通配符定义
+* 通过编辑距离等相似度计算（如fuzzywuzzy库）
