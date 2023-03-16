@@ -45,5 +45,9 @@
 # git教程
 * [廖雪峰](https://www.liaoxuefeng.com/wiki/896043488029600/900004111093344)
 * [菜鸟](https://www.runoob.com/git/git-branch.html)
+# [PyCharm中使用git](https://www.imooc.com/wiki/pycharmlesson/git1.html)
+* pycharm实现了git的命令行功能，可通过在需要操作的项目/目录/文件右键选择git栏目再选择相应功能
+* 查看历史或对比差异等功能比命令行更方便
+  * 我的
 # git分支管理
 * [Git flow](https://blog.csdn.net/renxingzhadan/article/details/125602045)
