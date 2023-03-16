@@ -45,9 +45,13 @@
 # git教程
 * [廖雪峰](https://www.liaoxuefeng.com/wiki/896043488029600/900004111093344)
 * [菜鸟](https://www.runoob.com/git/git-branch.html)
+* [git客户端工具](https://blog.csdn.net/wangmx1993328/article/details/82875941)
 # [PyCharm中使用git](https://www.imooc.com/wiki/pycharmlesson/git1.html)
-* pycharm实现了git的命令行功能，可通过在需要操作的项目/目录/文件右键选择git栏目再选择相应功能
-* 查看历史或对比差异等功能比命令行更方便
-  * 我的
+* pycharm实现了git的命令行功能，可通过在需要操作的项目/目录/文件/分支右键选择git栏目再选择相应功能
+* 查看历史或差异比对等功能比命令行更方便
+  * View -> Tool Windows -> Git，显示提交到所有分支和远程存储库的所有更改
+  * 查看两个提交之间的差异 -> 在 Git 工具窗口的"日志"选项卡中选择两个提交，然后从上下文菜单中选择 Compare Version, 打开在所选提交之间修改的文件列表, 单独选择文件查看差异
+  * 查看单个文件、目录修改历史 -> 右键对应文件/目录，git -> show history
+  * 分支对比 -> 在分支右键选compare可以和当前工作分支对比，选checkout可以切换到选择的分支，选择Show Diff with Working Tree可以实现所选分支和当前分支的本地状态进行对比（包含本地未提交的更改）
 # git分支管理
 * [Git flow](https://blog.csdn.net/renxingzhadan/article/details/125602045)
