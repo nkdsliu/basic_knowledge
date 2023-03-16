@@ -29,6 +29,7 @@
 * git branch -> 查看所有分支
 * git branch 分支名 -> 以当前分支的当前版本为基础创建一个新分支
 * git branch --set-upstream master origin/next -> 设置本地master分支与远程next分支追踪关系
+* git branch -d 分支名 -> 删除分支
 * git checkout 分支名 -> 切换分支
 * git checkout -b 分支名 -> 创建并切换分支
 * [git分支原理](https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%AE%80%E4%BB%8B#ch03-git-branching)
