@@ -36,7 +36,7 @@
 * [git push/pull指定仓库和分支](https://www.cnblogs.com/stephen-init/p/3833054.html)
 * git pull <远程主机名> <远程分支名>:<本地分支名>, git push <远程主机名> <本地分支名>:<远程分支名>（若远程分支不存在会创建）
 * git merge 分支B -m "描述信息" -> 当前在A分支工作，将B分支合并到A分支，合并结果存储在A分支，对B没有影响
-* [git冲突](https://juejin.cn/post/7004643157279244325)，手动解决冲突后需重新add和commit，[git合并原理](https://zhuanlan.zhihu.com/p/149287658)
+* [git冲突](https://juejin.cn/post/7004643157279244325)，git diff或git status查看冲突，手动解决冲突后需重新add和commit，[git合并原理](https://zhuanlan.zhihu.com/p/149287658)
 # 其他常用命令
 * 用HEAD表示当前版本，上一个版本是HEAD^，上上一个版本是HEAD^^，往上100个版本写成HEAD~100
 * git worktree多分支开发
