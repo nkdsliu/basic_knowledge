@@ -5,7 +5,7 @@
 ## 个人信息
 * 性 别：男&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;年 龄：31
 * 手 机：15620946598 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  邮 箱：2777863386@qq.com
-* 工作年限：5.5年 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 岗 位：算法工程师
+* 工作年限：6年 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; 岗 位：算法工程师
 
 ## 工作及教育经历
 * 华为技术有限公司&emsp;&emsp;&emsp;&ensp;2020.7~至今&emsp;&emsp;&emsp;&emsp;&emsp; 2012实验室
