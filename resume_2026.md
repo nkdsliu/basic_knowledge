@@ -9,8 +9,8 @@
 
 ## 工作及教育经历
 * 华为技术有限公司&emsp;&emsp;&emsp;&ensp;2020.7~至今&emsp;&emsp;&emsp;&emsp;&emsp; 2012实验室
-* 南开大学&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;2017.9~2019.7&emsp;&emsp;&emsp;&emsp; 计算机科学与技术专业-研究生
-* 南开大学&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;2013.9~2017.7&emsp;&emsp;&emsp;&emsp; 信息安全专业-本科
+* 南开大学&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;2017.9~2020.6&emsp;&emsp;&emsp;&emsp; 计算机科学与技术专业-研究生
+* 南开大学&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;2013.9~2017.6&emsp;&emsp;&emsp;&emsp; 信息安全专业-本科
 
 ## 项目经历
 1. 小艺大模型高情商对话能力建设
